@@ -7,7 +7,7 @@ function Banner() {
                 layout="fill" objectFit="cover"
             />
             <div className="absolute top-1/2 w-full text-center">
-                <p className="text-sm sm:text-lg">Not sure where to go?</p>
+                <p className="text-sm sm:text-lg md:text-xl lg:text-2xl text-gray-700">Not sure where to go?</p>
                 <button className="text-purple-500 bg-white px-10 py-4 shadow-md rounded-full
                     font-bold my-3 hover:shadow-xl active:scale-90 transition duration-150
                 ">
