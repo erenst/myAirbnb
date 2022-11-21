@@ -26,7 +26,7 @@ function Search({ searchResult }) {
                     </div>
                     <div className="flex flex-col">
                         {
-                            searchResult.map(({ img,location,title,description,star,price,total },index) => (
+                            searchResult?.map(({ img,location,title,description,star,price,total },index) => (
                                 <InfoCard key={index}
                                     img={img} location={location} title={title} description={description}
                                     star={star} price={price} total={total}
